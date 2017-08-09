@@ -1,42 +1,47 @@
-# A starter project for React/Redux
+# Protected Animals
 
-> A minimalistic React/Redux starter project
+## Getting started
 
-To use:
+```
+git clone https://github.com/
+cd Protected Animals
+npm install
+npm run knex migrate:latest
+npm run knex seed:run
 
-* Fork this repo
-* Rename your repo according to the app you're building
-
-```sh
-git clone https://github.com/[your-org]/[your-app].git
-cd [your-app] && npm install
 ```
 
-This is the structure of this boilerplate:
+**To start the server, run `npm start`, and go to http://localhost:3000/**
 
-```sh
-.
-├── client
-│   ├── actions
-│   │   └── index.js
-│   ├── components
-│   │   ├── App.jsx
-│   │   └── Word.jsx
-│   ├── containers
-│   │   ├── AddWord.jsx
-│   │   └── Words.js
-│   ├── reducers
-│   │   ├── index.js
-│   │   └── words.js
-│   └── index.js
-├── public
-│   ├── index.html
-│   └── main.css
-├── server
-│   ├── index.js
-│   └── server.js
-├── .gitignore
-├── package.json
-├── README.md
-└── webpack.config.js
-```
+## Tables/Databases
+
+Birds|
+-------|
+id_bird|
+name|
+description|
+image|
+
+
+Country|
+-------|
+id_country|
+name|
+bird_id|
+
+## Personal Learning Objectives
+
+#### Anto
+-React
+-Redux
+-APIs
+-Routes
+
+#### Magda
+-
+
+#### Annah
+-Databases
+-Knex
+-Server Side
+-Knex in Client Side
