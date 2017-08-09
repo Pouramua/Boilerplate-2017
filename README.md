@@ -32,16 +32,16 @@ bird_id|
 ## Personal Learning Objectives
 
 #### Anto
--React
--Redux
--APIs
--Routes
+- React
+- Redux
+- APIs
+- Routes
 
 #### Magda
 -
 
 #### Annah
--Databases
--Knex
--Server Side
--Knex in Client Side
+- Databases
+- Knex
+- Server Side
+- Knex in Client Side
